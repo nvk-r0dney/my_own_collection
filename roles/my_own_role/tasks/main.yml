@@ -1,0 +1,7 @@
+---
+# tasks file for ./roles/my_own_role
+
+- name: Create test file by module
+  my_own_namespase.yandex_cloud_elk.my_own_module:
+    path: "{{ default_path }}"
+    content: "{{ default_content }}"

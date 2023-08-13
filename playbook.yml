@@ -1,0 +1,5 @@
+---
+- name: Create test file
+  hosts: localhost
+  roles:
+    - my_own_role
